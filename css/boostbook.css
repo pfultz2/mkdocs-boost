@@ -84,11 +84,11 @@ Headings
         font-weight: bold;
     }
 
-    h1 { font-size: 140%; }
-    h2 { font-weight: bold; font-size: 140%; }
-    h3 { font-weight: bold; font-size: 130%; }
-    h4 { font-weight: bold; font-size: 120%; }
-    h5 { font-weight: normal; font-style: italic; font-size: 110%; }
+    h1 { font-size: 150%; padding-top: 0.5em; }
+    h2 { font-weight: bold; font-size: 130%; }
+    h3 { font-weight: bold; font-size: 120%; }
+    h4 { font-weight: bold; font-size: 110%; }
+    h5 { font-weight: normal; font-style: italic; font-size: 100%; }
     h6 { font-weight: normal; font-style: italic; font-size: 100%; }
 
     /* Top page titles */
@@ -105,23 +105,23 @@ Headings
         margin-bottom: 1pc;
     }
 
-    h1.title { font-size: 140% }
-    h2.title { font-size: 140% }
-    h3.title { font-size: 130% }
-    h4.title { font-size: 120% }
-    h5.title { font-size: 110% }
+    h1.title { font-size: 150% }
+    h2.title { font-size: 130% }
+    h3.title { font-size: 120% }
+    h4.title { font-size: 110% }
+    h5.title { font-size: 100% }
     h6.title { font-size: 100% }
 
     .section h1
     {
         margin: 0em 0em 0.5em 0em;
-        font-size: 140%;
+        font-size: 150%;
     }
 
-    .section h2 { font-size: 140% }
-    .section h3 { font-size: 130% }
-    .section h4 { font-size: 120% }
-    .section h5 { font-size: 110% }
+    .section h2 { font-size: 130% }
+    .section h3 { font-size: 120% }
+    .section h4 { font-size: 110% }
+    .section h5 { font-size: 100% }
     .section h6 { font-size: 100% }
 
     /* Code on titles */
