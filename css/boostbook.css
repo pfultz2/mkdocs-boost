@@ -49,15 +49,9 @@ Program listings
     }
 
     .programlisting,
-    .screen
-    {
-        font-size: 9pt;
-        display: block;
-        margin: 1pc 4% 0pc 4%;
-        padding: 0.5pc 0.5pc 0.5pc 0.5pc;
-    }
-
-    pre > code
+    .screen,
+    pre > code,
+    div.codehilite
     {
         font-size: 9pt;
         display: block;
@@ -419,14 +413,67 @@ Colors
         }
 
     /* Syntax Highlighting */
-        .keyword { color: #0000AA; }
-        .identifier { color: #000000; }
-        .special { color: #707070; }
-        .preprocessor { color: #402080; }
-        .char { color: teal; }
-        .comment { color: #800000; }
-        .string { color: teal; }
-        .number { color: teal; }
+        .keyword,
+        .codehilite .k, 
+        .codehilite .kc,
+        .codehilite .kd,
+        .codehilite .kn,
+        .codehilite .kp,
+        .codehilite .kr,
+        .codehilite .kt
+        { color: #0000AA; }
+        .identifier,
+        .codehilite .n,
+        .codehilite .na,
+        .codehilite .nb,
+        .codehilite .bp,
+        .codehilite .nc,
+        .codehilite .no,
+        .codehilite .nd,
+        .codehilite .ni,
+        .codehilite .ne,
+        .codehilite .nf,
+        .codehilite .py,
+        .codehilite .nl,
+        .codehilite .nn,
+        .codehilite .nx,
+        .codehilite .nt,
+        .codehilite .nv,
+        .codehilite .vc,
+        .codehilite .vg,
+        .codehilite .vi
+        { color: #000000; }
+        .special 
+        { color: #707070; }
+        .preprocessor,
+        .codehilite .cp
+        { color: #402080; }
+        .char,
+        .codehilite .sc 
+        { color: teal; }
+        .comment,
+        .codehilite .cm,
+        .codehilite .c1,
+        .codehilite .cs
+        { color: #800000; }
+        .string,
+        .codehilite .s,
+        .codehilite .s2,
+        .codehilite .se,
+        .codehilite .sh,
+        .codehilite .si,
+        .codehilite .sx,
+        .codehilite .sr,
+        .codehilite .s1,
+        .codehilite .ss
+        { color: teal; }
+        .number,
+        .codehilite .m,
+        .codehilite .mf,
+        .codehilite .mh,
+        .codehilite .mi,
+        .codehilite .mo
+        { color: teal; }
         .white_bkd { background-color: #FFFFFF; }
         .dk_grey_bkd { background-color: #999999; }
 
@@ -471,12 +518,9 @@ Colors
         }
 
         .programlisting,
-        .screen
-        {
-            border: 1px solid #DCDCDC;
-        }
-
-        pre > code
+        .screen,
+        pre > code,
+        div.codehilite
         {
             border: 1px solid #DCDCDC;
         }
