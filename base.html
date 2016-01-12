@@ -27,6 +27,22 @@
 <div class="chapter">
 {% if current_page and current_page.is_homepage %}
 
+<div class="chapter">
+<div class="titlepage"><div>
+<div><h2 class="title">
+<a></a>{{ site_name }}</h2></div>
+<div><div class="author"><h3 class="author">
+{{ site_author }}
+</h3></div></div>
+<div><p class="copyright">{% if copyright %}{{ copyright }}{% endif %}</p></div>
+<div><div class="legalnotice">
+<a name="idm45555445986288"></a><p>Distributed under the Boost Software License, Version 1.0.
+      (See accompanying file <code class="filename">LICENSE_1_0.txt</code> or copy at 
+      <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
+      </p>
+</div></div>
+</div></div>
+
 {% include "nav.html" %}
 
 {% else %}
@@ -41,10 +57,7 @@
 
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">
-      {% if copyright %}
-        {{ copyright }}
-      {% endif %}
+<td align="right"><div class="copyright-footer">{% if copyright %}{{ copyright }}{% endif %}
       <p>Distributed under the Boost Software License, Version 1.0.
       (See accompanying file <code class="filename">LICENSE_1_0.txt</code> or copy at 
       <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
