@@ -57,6 +57,14 @@ Program listings
         padding: 0.5pc 0.5pc 0.5pc 0.5pc;
     }
 
+    pre > code
+    {
+        font-size: 9pt;
+        display: block;
+        margin: 1pc 4% 0pc 4%;
+        padding: 0.5pc 0.5pc 0.5pc 0.5pc;
+    }
+
     /* Program listings in tables don't get borders */
     td .programlisting,
     td .screen
@@ -464,6 +472,11 @@ Colors
 
         .programlisting,
         .screen
+        {
+            border: 1px solid #DCDCDC;
+        }
+
+        pre > code
         {
             border: 1px solid #DCDCDC;
         }
