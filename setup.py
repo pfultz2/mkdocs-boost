@@ -15,7 +15,7 @@ setup(
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
-            'boost = boost',
+            'boost = mkdocs_boost',
         ]
     },
     zip_safe=False
